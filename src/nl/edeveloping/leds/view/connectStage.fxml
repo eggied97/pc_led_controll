@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.edeveloping.leds.controller.ConnectController">
+         <padding>
+            <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+         </padding>
+         <children>
+            <ChoiceBox fx:id="connectChoiceBox" layoutX="59.0" layoutY="85.0" prefWidth="150.0" />
+            <Button fx:id="connectButton" layoutX="134.0" layoutY="132.0" mnemonicParsing="false" onAction="#handleConnect" text="Connect" />
+         </children>
+      </AnchorPane>
